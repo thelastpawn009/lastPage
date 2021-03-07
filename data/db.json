@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "Sound of Silence",
+      "body": "Hello darkness, my old friend\nI've come to talk with you again\nBecause a vision softly creeping\nLeft its seeds while I was sleeping\nAnd the vision that was planted in my brain\nStill remains\nWithin the sound of silence",
+      "author": "Yoshie",
+      "id": 2
+    },
+    {
+      "title": "jaun elia",
+      "body": "Tere haal pr sb hairaan h\nkya tu bhi hairaan h? Nahin to\n",
+      "author": "Yoshie",
+      "id": 3
+    },
+    {
+      "title": "ajeeb",
+      "body": "shi mein",
+      "author": "Author 3",
+      "id": 5
+    },
+    {
+      "title": "wonderful tonight",
+      "body": "its time to go home now,\nand i got an aching head,\nso i give her the car keys,\nand she helps me to bed,\nand i said to her,\nas i dimmed the light,\ni said darling you look wonderful tonight.",
+      "author": "Yoshie",
+      "id": 6
+    }
+  ]
+}
