@@ -11,7 +11,7 @@ const Create = () => {
         e.preventDefault();
         const blog={title,body,author};
         setPending(true);
-        fetch('https://my-json-server.typicode.com/thelastpawn009/fakejson/blogs', {
+        fetch('https://gist.githubusercontent.com/thelastpawn009/ca9d9d824e290b87286dd4056978f1bf/raw/5dacd753df58839b5c0b55b87cb4e891e8ba3bd9/db.json', {
             method:'POST',
             headers:{
                 "Content-Type":"application/json"
