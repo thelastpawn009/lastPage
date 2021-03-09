@@ -11,7 +11,7 @@ const Create = () => {
         e.preventDefault();
         const blog={title,body,author};
         setPending(true);
-        fetch('http://localhost:8000/blogs', {
+        fetch('https://my-json-server.typicode.com/thelastpawn009/fakejson', {
             method:'POST',
             headers:{
                 "Content-Type":"application/json"
