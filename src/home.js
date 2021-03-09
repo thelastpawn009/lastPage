@@ -4,7 +4,7 @@ import useFetch from "./usefetch";
 
 const Home = () => {
     
-   const {data:blogs,error,ispending}=useFetch('https://my-json-server.typicode.com/thelastpawn009/fakejson');
+   const {data:blogs,error,ispending}=useFetch('https://my-json-server.typicode.com/thelastpawn009/fakejson/db');
     
     return ( 
         <div className="home">
