@@ -4,9 +4,9 @@ import useFetch from "./usefetch";
 const Blogdetails = () => {
     const history=useHistory()
     const {id}=useParams();
-    const {data:blog,error,ispending}=useFetch('http://localhost:8000/blogs/'+id);
+    const {data:blog,error,ispending}=useFetch('https://github.com/thelastpawn009/fakejson/blob/[main|master]/db.json'+id);
     const handleClick=()=>{
-        fetch('http://localhost:8000/blogs/'+blog.id,{
+        fetch('https://github.com/thelastpawn009/fakejson/blob/[main|master]/db.json'+blog.id,{
             method:'DELETE'
         }).then(()=>{
             history.push('/');
